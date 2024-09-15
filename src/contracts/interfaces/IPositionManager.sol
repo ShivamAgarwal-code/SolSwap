@@ -2,7 +2,7 @@
 pragma solidity ^0.8.0;
 
 interface IPositionManager {
-    // details about the uniswap position
+    
     struct Position {
         // the nonce for permits
         uint96 nonce;
