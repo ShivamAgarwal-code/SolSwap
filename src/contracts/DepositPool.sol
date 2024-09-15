@@ -258,7 +258,7 @@ contract DepositPool is IDepositPool, IERC20 {
 
         uint256 _totalSupply = totalSupply;
         if(_totalSupply > 0) {
-            //get reserves from uni
+            
             (_reserve0, _reserve1) = GammaswapLibrary.getBorrowedReserves(uniPair, _uniReserve0, _uniReserve1, totalUniLiquidity, BORROWED_INVARIANT);//This is right because the liquidity has to
         }
 
