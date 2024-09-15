@@ -15,7 +15,7 @@ import { poolFixture, testPoolFixture } from './shared/fixtures';
  const provider = new providers.JsonRpcProvider(url);
 
  const _provider = new Web3.providers.HttpProvider("http://localhost:7545");
- //const web3Provider = new providers.Web3Provider(provider);
+
 
  contract('DepositPool', (accounts) => {
      //let token;
